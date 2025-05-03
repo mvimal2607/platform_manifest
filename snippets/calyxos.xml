@@ -42,4 +42,12 @@
   <project name="CalyxOS/platform_packages_apps_SetupWizard" path="packages/apps/SetupWizard" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_packages_overlays_Calyx" path="packages/overlays/Calyx" groups="lineage" remote="gitlab" />
 
+  <!-- Device trees -->
+  <project name="mvimal2607/android_device_realme_lunaa" path="device/realme/lunaa" revision="fifteen" remote="github" />
+  <project name="mvimal2607/android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" revision="fifteen" remote="github" />
+  <project name="mvimal2607/android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" revision="fifteen" remote="github" />
+  <project name="mvimal2607/android_hardware_oplus" path="hardware/oplus" revision="fifteen" remote="github" />
+  <project name="mvimal2607/proprietary_vendor_realme_lunaa" path="vendor/realme/lunaa" revision="fifteen" remote="github" />
+  <project name="mvimal2607/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" revision="fifteen" remote="github" />
+
 </manifest>
