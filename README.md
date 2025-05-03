@@ -1,3 +1,27 @@
+## How to Build?
+
+### Initialize local repository
+```
+repo init --git-lfs -u https://github.com/mvimal2607/platform_manifest.git -b fifteen
+```
+### Sync
+```
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+```
+
+### Build ###
+
+```
+source build/envsetup.sh
+```
+```
+breakfast <device> <build_type>
+```
+```
+m
+```
+
+
 # CalyxOS
 
 CalyxOS is an AOSP based OS, built upon many free software projects. Check out the [website](https://calyxos.org/) to learn more about the project.
