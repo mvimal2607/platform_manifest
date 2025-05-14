@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://github.com" 
-          revision="refs/heads/fifteen"
-          name="github" />
-
+  <remote  fetch="https://github.com" 
+           revision="refs/heads/fifteen"
+           name="github" />
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
@@ -15,10 +14,6 @@
            fetch="https://gitlab.com/"
            review="review.calyxos.org"
            revision="refs/heads/main" />
-  <remote  name="gitlab-priv"
-           fetch="ssh://git@gitlab.com"
-           review="review.calyxos.org"
-           revision="refs/heads/android15-qpr2" />
   <default revision="refs/tags/android-15.0.0_r32"
            remote="aosp"
            sync-j="4"
@@ -751,7 +746,7 @@
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" />
   <project path="packages/apps/SecureElement" name="platform/packages/apps/SecureElement" groups="apps_se,pdk-fs,pdk-cw-fs" />
-  <project path="packages/apps/Settings" name="CalyxOS/platform_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc" remote="gitlab" />
+  <project path="packages/apps/Settings" name="mvimal2607/platform_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc" remote="github" />
   <project path="packages/apps/SettingsIntelligence" name="CalyxOS/platform_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="gitlab" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
